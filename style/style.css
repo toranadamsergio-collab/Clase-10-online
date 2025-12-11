@@ -1,0 +1,47 @@
+*{
+    font-family: "Cabin", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo-sol{
+    background-image:url(https://www.adobe.com/es/products/media_1e5a00c8c388e864c67c6401a3f5c4ae489842b25.jpg?width=2000&format=webply&optimize=medium) ;
+    height: 75vh;
+    color:white ;
+    width: 100%;
+    padding: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        width: 20%;
+    }
+
+    p{
+        width: 27%;
+    }
+}
+
+.botom{
+    padding: 1rem;
+}
+.bot-1{
+    box-shadow: none;
+    color: white;
+    border-color:white ;
+    background-color: #303abd;
+    border-radius: 25px;
+    padding: 10px 24px 8px;
+}
+
+.bot-2{
+    box-shadow: none;
+    border-color: white;    
+    color: white;
+    border-color:grey ;
+    background-color: #3b63fb;
+    border-radius: 25px;
+    padding: 10px 24px 8px;
+}
